@@ -7,8 +7,8 @@
 
       
       <h1 class="text-h3 font-weight-bold my-1">
-        <span style="color: #07689F;">ROCA</span>
-        <span style="color: #A2D5F2;">SOLIDA</span>
+        
+        <span style="color: #A2D5F2;">DURADERO</span>
         <span style="color: #07689F;">.TECH</span>
       </h1>
       <h2>Coming Soon</h2>
