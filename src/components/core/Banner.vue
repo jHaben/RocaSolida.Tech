@@ -3,11 +3,7 @@
     <v-responsive class=" align-top-center text-center fill-height">
 
 
-      <h1 class="title  font-weight-bold my-1">
-        <span style="color: #07689F;">ROCA</span>
-        <span style="color: #A2D5F2;">SOLIDA</span>
-        <span style="color: #07689F;">.TECH</span>
-      </h1>
+
 
       <div class="pyramid-container">
         <v-img height="300" width="300" src="@/assets/pyramid.png" alt="Pyramid of 5 bricks" />
@@ -19,10 +15,15 @@
 
 
 
-      <h2>Construyendo juntos sobre
-        <span style="color: #07689F;">ROCA </span>
-        <span style="color: #A2D5F2;">SOLIDA</span>
+      <h2>Juntos construimos sobre 
+
       </h2>
+
+      <h1 class="title  font-weight-bold my-1">
+        <span style="color: #07689F;">ROCA</span>
+        <span style="color: #A2D5F2;">SOLIDA</span>
+        <span style="color: #07689F;">.TECH</span>
+      </h1>
 
     </v-responsive>
   </v-container>
@@ -70,9 +71,11 @@ function changeImage() {
   0% {
     transform: scale(1.2) rotateY(0deg);
   }
+
   5% {
     transform: scale(1.2) rotateY(-360deg);
   }
+
   25% {
     transform: scale(1.18) rotateY(-500deg);
   }
@@ -99,19 +102,16 @@ function changeImage() {
   0% {
     transform: scale(1.1) rotateY(-1000deg);
   }
+
   80% {
-    transform:  scale(1) rotateY(-3600deg);
+    transform: scale(1) rotateY(-3600deg);
   }
 
   100% {
-    transform:  rotateY(0deg);
+    transform: rotateY(0deg);
 
   }
 }
-
-
-
-
 
 .title {
   font-size: 3.5em;
@@ -121,5 +121,4 @@ function changeImage() {
   .title {
     font-size: 2em;
   }
-}
-</style>
+}</style>

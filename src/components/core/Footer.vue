@@ -1,0 +1,19 @@
+<template>
+  <v-footer color="secondary">
+    <v-row justify="center" no-gutters>
+
+      <v-col class="text-center mt-4" cols="12">
+        {{ new Date().getFullYear() }} — <strong>Roca Solida</strong>
+      </v-col>
+    </v-row>
+  </v-footer>
+</template>
+  
+<script setup>
+
+</script>
+  
+<style scoped>
+/* Add your styles here */
+</style>
+  
