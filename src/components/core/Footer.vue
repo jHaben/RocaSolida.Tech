@@ -1,6 +1,6 @@
 <template>
-  <v-footer color="secondary">
-    <v-row justify="center" no-gutters>
+  <v-footer color="secondary" app="true">
+    <v-row>
 
       <v-col class="text-center mt-4" cols="12">
         {{ new Date().getFullYear() }} — <strong>Roca Solida</strong>

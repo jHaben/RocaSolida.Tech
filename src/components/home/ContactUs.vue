@@ -1,9 +1,10 @@
 <template>
-  <v-container class="align-top-center text-center fill-height">
-    <section id="contact-us">
-      <h2>Contact Us</h2>
-      <p>Here you can provide information about how to contact you.</p>
-    </section>
+  <v-container class="align-center text-center">
+    <v-sheet :elevation="4" rounded>
+      <section id="contact-us">
+        <h2>Contáctenos para su sitio web hoy.</h2>
+      </section>
+    </v-sheet>
   </v-container>
 </template>
   

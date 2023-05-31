@@ -1,17 +1,17 @@
 <template>
   <v-app-bar color="primary">
+    <!-- <v-img height="50px" src="@/assets/brick.png" /> -->
     <v-spacer></v-spacer>
-    <v-btn variant="outlined" @click="goTo('#home')">
+    <v-spacer></v-spacer>
+    <!-- <v-btn class="mx-1" variant="outlined" @click="goTo('#home')">
       Home
     </v-btn>
-    <v-spacer></v-spacer>
-    <v-btn variant="outlined" @click="goTo('#services')">
+    <v-btn class="mx-1" variant="outlined" @click="goTo('#services')">
       Services
     </v-btn>
-    <v-spacer></v-spacer>
-    <v-btn variant="outlined" @click="goTo('#contact-us')">
+    <v-btn class="mx-1" variant="outlined" @click="goTo('#contact-us')">
       Contact Us
-    </v-btn>
+    </v-btn> -->
     <v-spacer></v-spacer>
   </v-app-bar>
 </template>

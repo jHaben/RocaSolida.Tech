@@ -1,5 +1,5 @@
 <template id="home">
-  <services />
+  <!-- <services /> -->
   <contact-us />
 </template>
 
@@ -7,11 +7,4 @@
 import Services from '@/components/home/Services.vue'
 import ContactUs from '@/components/home/ContactUs.vue'
 
-// export default {
-//   name: "Home",
-//   components: {
-//     Services,
-//     ContactUs,
-//   }
-// }
 </script>

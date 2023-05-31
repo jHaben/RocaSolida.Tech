@@ -1,6 +1,6 @@
 <template>
-  <v-container class="fill-height">
-    <v-responsive class=" align-top-center text-center fill-height">
+  <v-container >
+    <v-responsive class=" align-top-center text-center ">
 
 
 
