@@ -1,17 +1,26 @@
 <template>
-  <v-container class="align-center text-center ">
-    <v-sheet :elevation="4" rounded color="primary" max-width="600" min-width="400">
-      <section id="contact-us">
-        <h2>Contáctenos para su sitio web hoy.</h2>
-      </section>
-    </v-sheet>
-  </v-container>
+  <div class="d-flex align-center flex-column text-center">
+    <v-card class="ma-16" elevation="0" width="400" color="secondary">
+      <v-card-item>
+        <v-btn @click="sendEmail"><v-icon color="primary" size="xx-large">mdi-email</v-icon></v-btn>
+        <v-card-title> info@rocasolida.tech </v-card-title>
+      </v-card-item>
+    </v-card>
+  </div>
 </template>
-  
-<script setup>
+
+<script>
+export default {
+  methods: {
+    sendEmail() {
+      window.location.href = 'mailto:info@rocasolida.tech';
+    },
+  },
+};
 </script>
-  
+
 <style scoped>
 /* Add your styles here */
 </style>
+
   
