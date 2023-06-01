@@ -1,5 +1,5 @@
 <template id="home">
-  <!-- <services /> -->
+ <services />
   <contact-us />
 </template>
 

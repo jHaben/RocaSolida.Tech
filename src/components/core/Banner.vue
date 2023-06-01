@@ -1,6 +1,6 @@
 <template>
-  <v-container >
-    <v-responsive class=" align-top-center text-center ">
+  <v-container>
+    <v-responsive class=" align-top-center text-center">
 
 
 
@@ -15,7 +15,7 @@
 
 
 
-      <h2>Juntos construimos sobre 
+      <h2>Juntos construimos sobre
 
       </h2>
 
@@ -121,4 +121,5 @@ function changeImage() {
   .title {
     font-size: 2em;
   }
-}</style>
+}
+</style>
