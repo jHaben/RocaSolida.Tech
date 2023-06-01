@@ -4,6 +4,7 @@
       <v-card-item>
         <v-btn @click="sendEmail"><v-icon color="primary" size="xx-large">mdi-email</v-icon></v-btn>
         <v-card-title> info@rocasolida.tech </v-card-title>
+        <v-card-title> St. Paul, MN </v-card-title>
       </v-card-item>
     </v-card>
   </div>
