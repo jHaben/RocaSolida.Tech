@@ -7,7 +7,7 @@
     <v-card class="ma-2" elevation="8" width="400" color="primary">
       <v-card-item>
         <v-icon size="50">mdi-laptop</v-icon>
-        <v-card-title> Sitios web personalizados </v-card-title>
+        <v-card-title> Página de internet personalizada </v-card-title>
       </v-card-item>
     </v-card>
 
@@ -23,8 +23,7 @@
     <v-card class="ma-2" elevation="8" width="400" color="primary">
       <v-card-item>
         <v-icon size="50">mdi-cellphone</v-icon>
-        <v-card-title> Compatible con dispositivos</v-card-title>
-        <v-card-title> móviles </v-card-title>
+        <v-card-title> Compatible con celular</v-card-title>
       </v-card-item>
     </v-card>
 
