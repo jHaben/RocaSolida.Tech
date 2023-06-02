@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex align-center flex-column text-center">
-    <v-card class="ma-16" elevation="0" width="400" color="secondary">
+    <v-card class="ma-16" elevation="0" width="600" color="secondary">
       <v-card-item>
         <v-btn @click="sendEmail"><v-icon color="primary" size="xx-large">mdi-email</v-icon></v-btn>
         <v-card-title> info@rocasolida.tech </v-card-title>

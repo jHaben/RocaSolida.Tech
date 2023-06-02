@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-responsive class=" align-top-center text-center">
+    <v-responsive class=" align-top-center justify-center text-center">
 
 
 
