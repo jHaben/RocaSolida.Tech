@@ -30,7 +30,7 @@
 
           </v-col>
         </v-row>
-        <v-spacer/>
+        <v-spacer />
         <!-- <v-col>
           <v-sheet class="pa-5" color="transparent">
             <v-switch v-model="spanishSwitch" :label="'Español'" @click="changeLanguage"></v-switch>
