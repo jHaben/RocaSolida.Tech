@@ -15,8 +15,8 @@
 
 
 
-      <h2>Juntos construimos sobre
-
+      <h2>
+        {{ spanishStatus }}
       </h2>
 
       <h1 class="title  font-weight-bold my-1">
@@ -30,7 +30,8 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { useLanguageStore } from '@/store/language'
+import { computed, ref } from 'vue'
 import brick from '@/assets/brick.png';
 import brick2 from '@/assets/brick2.png';
 
@@ -42,7 +43,17 @@ function changeImage() {
   brickImage.value = brick2;
   isImageChanged.value = true;
 }
+
+
+
+const languageStore = useLanguageStore()
+
+const english = ref("Together build on ")
+const spanish = ref("Juntos construimos sobre")
+
+const spanishStatus = computed(() => languageStore.getLanguage ? spanish.value : english.value)
 </script>
+
 <style scoped>
 .pyramid-container {
   position: relative;

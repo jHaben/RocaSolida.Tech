@@ -1,19 +1,4 @@
 <template>
-  <!-- <v-app-bar color="primary">
-    <v-img height="50px" src="@/assets/brick.png" />
-    <v-spacer></v-spacer>
-    <v-spacer></v-spacer>
-    <v-btn class="mx-1" variant="outlined" @click="goTo('#home')">
-      Home
-    </v-btn>
-    <v-btn class="mx-1" variant="outlined" @click="goTo('#services')">
-      Services
-    </v-btn>
-    <v-btn class="mx-1" variant="outlined" @click="goTo('#contact-us')">
-      Contact Us
-    </v-btn>
-    <v-spacer></v-spacer>
-  </v-app-bar> -->
 
 
   <v-app-bar app color="primary" height="100">
@@ -31,19 +16,26 @@
           </v-col>
         </v-row>
         <v-spacer />
-        <!-- <v-col>
+        <v-col>
           <v-sheet class="pa-5" color="transparent">
             <v-switch v-model="spanishSwitch" :label="'Español'" @click="changeLanguage"></v-switch>
           </v-sheet>
-        </v-col> -->
+        </v-col>
       </v-row>
     </v-container>
   </v-app-bar>
 </template>
   
 <script>
+import { useLanguageStore } from '@/store/language'
+
 export default {
   name: 'NavBar',
+  data() {
+    return {
+      spanishSwitch: true,
+    };
+  },
   methods: {
     goTo(target) {
       this.$vuetify.goTo(target, { duration: 500, easing: "linear" });
@@ -52,9 +44,22 @@ export default {
     sendEmail() {
       window.location.href = 'mailto:info@rocasolida.tech';
     },
-  }
+
+    changeLanguage() {
+      this.spanishSwitch = !this.spanishSwitch;
+      this.languageStore.setLanguage(this.spanishSwitch);
+    },
+  },
+  setup() {
+    const languageStore = useLanguageStore()
+
+    return {
+      languageStore,
+    }
+  },
 }
 </script>
+
   
 <style scoped></style>
   
