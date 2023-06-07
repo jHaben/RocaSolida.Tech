@@ -1,26 +1,20 @@
 <template>
-
-
   <v-app-bar app color="primary" height="100">
     <v-container>
       <v-row class="d-flex flex-nowrap my-2">
 
-        <v-col class="d-flex align-center justify-center">
-          <v-img alt="RS Logo" src="@/assets/brickFB.png" transition="scale-transition" max-height="72" contain />
+        <v-col cols="3"  sm="4" class="d-flex mt-6">
+          <v-img alt="RS Logo" src="@/assets/brickFB.png" transition="scale-transition" max-height="60" contain />
         </v-col>
 
-        <v-row>
-          <v-col class="d-flex align-center justify-end">
-            <v-btn @click="sendEmail"><v-icon color="white" size="xx-large">mdi-email</v-icon></v-btn>
-
-          </v-col>
-        </v-row>
-        <v-spacer />
-        <v-col>
-          <v-sheet class="pa-5" color="transparent">
-            <v-switch v-model="spanishSwitch" :label="'Español'" @click="changeLanguage"></v-switch>
-          </v-sheet>
+        <v-col cols="2" sm="4" class="d-flex align-center  justify-center ">
+          <v-btn @click="sendEmail"><v-icon color="white" size="xx-large">mdi-email</v-icon></v-btn>
         </v-col>
+
+        <v-col cols="3" sm="4" class="d-flex align-center  justify-center mt-6">
+          <v-switch v-model="spanishSwitch" :label="'Español'" @click="changeLanguage"></v-switch>
+        </v-col>
+
       </v-row>
     </v-container>
   </v-app-bar>
@@ -61,5 +55,14 @@ export default {
 </script>
 
   
-<style scoped></style>
+<style >
+div.v-input__control>div {
+  flex-direction: column;
+
+}
+
+div>label {
+  justify-content: center;
+}
+</style>
   
