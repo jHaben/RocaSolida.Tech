@@ -63,6 +63,12 @@ div.v-input__control>div {
 
 div>label {
   justify-content: center;
+  
 }
+
+#app > div > div > header > div > div > div > div.v-col-sm-4.v-col-3.d-flex.align-center.justify-center.mt-6 > div > div.v-input__control > div > label {
+  font-size: 14px;
+}
+
 </style>
   
