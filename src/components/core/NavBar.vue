@@ -4,7 +4,7 @@
       <v-row class="d-flex flex-nowrap my-2">
 
         <v-col cols="3"  sm="4" class="d-flex mt-6">
-          <v-img alt="RS Logo" src="@/assets/brickFB.png" transition="scale-transition" max-height="60" contain />
+          <v-img alt="Roca Solida Logo" src="@/assets/brickFB.png" transition="scale-transition" max-height="60" contain />
         </v-col>
 
         <v-col cols="2" sm="4" class="d-flex align-center  justify-center ">

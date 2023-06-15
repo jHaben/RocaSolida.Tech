@@ -6,9 +6,9 @@
 
 
       <div class="pyramid-container">
-        <v-img height="300" width="300" src="@/assets/pyramid.png" alt="Pyramid of 5 bricks" />
+        <v-img alt="A pyramid of bricks displayed on a computer screen" height="300" width="300" src="@/assets/pyramid.png" alt="Pyramid of 5 bricks" />
         <div class="brick" @animationend="changeImage">
-          <v-img :src="brickImage" :class="{ 'brick-rotated': isImageChanged }" height="300" alt="Floating brick" />
+          <v-img alt="The top brick"  :src="brickImage" :class="{ 'brick-rotated': isImageChanged }" height="300" alt="Floating brick" />
         </div>
 
       </div>
