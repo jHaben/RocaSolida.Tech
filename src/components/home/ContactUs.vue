@@ -2,7 +2,7 @@
   <div class="d-flex align-center flex-column text-center">
     <v-card class="ma-16" elevation="0" width="600" color="secondary">
       <v-card-item>
-
+        <div id="rumble_v2u206c"></div>
         <v-card-title>{{
           spanishStatus
         }}</v-card-title>
@@ -26,7 +26,7 @@
         <v-card-title> St. Paul, MN </v-card-title>
       </v-card-item>
 
-      <div id="rumble_v2u206c"></div>
+      
     </v-card>
   </div>
 </template>
