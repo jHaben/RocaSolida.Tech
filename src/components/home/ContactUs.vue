@@ -1,27 +1,27 @@
 <template>
   <div class="d-flex align-center flex-column text-center">
-    <v-card class="ma-16" elevation="0" width="600" color="secondary">
+    <v-card class="ma-16" elevation="0"  color="secondary">
       <v-card-item>
-        <div id="rumble_v2u206c"></div>
+        <!-- <div id="rumble_v2u206c"></div> -->
         <v-card-title>{{
           spanishStatus
         }}</v-card-title>
         <v-btn class="mt-2" @click="sendEmail"><v-icon color="primary" size="xx-large">mdi-email</v-icon></v-btn>
         <v-card-title> info@rocasolida.tech </v-card-title>
         <v-row justify="center" class="ma-4">
-          <v-btn elevation="2" icon outlined class="emailBtn ma-2 text4" style="font-size: 20px; background-color: white"
+          <!-- <v-btn elevation="2" icon outlined class="emailBtn ma-2 text4" style="font-size: 20px; background-color: white"
             rounded size="x-large" target="_blank" href="https://twitter.com/rocaSolidaTech">
             <v-icon color="primary" size="50">
-              {{ "mdi-twitter" }}</v-icon></v-btn>
+              {{ "mdi-twitter" }}</v-icon></v-btn> -->
 
           <v-btn elevation="2" icon outlined class="emailBtn ma-2 text4" style="font-size: 20px; background-color: white"
             rounded size="x-large" target="_blank" href="https://wa.me/6514421267">
             <v-icon color="primary" size="50">
               {{ "mdi-whatsapp" }}</v-icon></v-btn>
-          <v-btn elevation="2" icon outlined class="emailBtn ma-2 text4" style="font-size: 20px; background-color: white"
+          <!-- <v-btn elevation="2" icon outlined class="emailBtn ma-2 text4" style="font-size: 20px; background-color: white"
             rounded size="x-large" target="_blank" href="https://www.facebook.com/RocaSolidaTech">
             <v-icon color="primary" size="50">
-              {{ "mdi-facebook" }}</v-icon></v-btn>
+              {{ "mdi-facebook" }}</v-icon></v-btn> -->
         </v-row>
         <v-card-title> St. Paul, MN </v-card-title>
       </v-card-item>
